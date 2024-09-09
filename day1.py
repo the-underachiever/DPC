@@ -1,4 +1,4 @@
-def sort_array(arr):
+def sorted(arr):
     low = 0
     mid = 0
     high = len(arr) - 1
@@ -17,5 +17,5 @@ def sort_array(arr):
     return arr
 
 arr = [0, 1, 2, 1, 0, 2, 1, 0]
-sorted_arr = sort_array(arr)
-print(sorted_arr)  
+fixed = sorted(arr)
+print(fixed)  
